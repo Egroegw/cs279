@@ -1,0 +1,3 @@
+Pair Research with Catherine
+
+I helped her with thinking about potential final projects, while she helped me with Javascript debugging. I didn't realize it looking at the documentation, but debugging Javascript in the browser is so much easier than trying to debug in VS Code. I said that we don't need to make a massive change to a paper for Tier 3, we just need to make one change, and that would be enough. We talked about CS courses and undergraduate life. 

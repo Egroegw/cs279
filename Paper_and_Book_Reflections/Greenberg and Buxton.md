@@ -1,0 +1,5 @@
+# Greenberg and Buxton
+
+Researchers and practicianers in HCI would like to rigorously and accurately evaluate interfaces and systems, but may use usability evaluation as a vital part of their process without understanding that it can mute creative ideas, quash inspired visions, and incorrectly suggest a design’s scientific worthiness rather than offer a meaningful critique of how it would be adopted and used in everyday practice. The evidence the authors present is via reference to earlier research and their own experience and views of researchers unquestioningly adopting the doctrine of usability evaluation. 
+
+As a result, the authors explain the difference between sketches and prototypes, getting the design right and getting the right design, as well as discussing usability evaluation, innovation, and cultural adoption. The authors finish by giving several initiatives that they think the HCI community can adopt to reduce the dangers of mindless usability evaluations. Their evidence and authority come from a combined five decades of close involvement in the HCI academic world.

@@ -1,0 +1,14 @@
+{
+  "name": "4b82f92ae3551b02",
+  "main": "4b82f92ae3551b02@131.js",
+  "version": "131.0.0",
+  "homepage": "https://observablehq.com/d/4b82f92ae3551b02",
+  "author": {
+    "name": "egroegw",
+    "url": "https://observablehq.com/@eg"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}

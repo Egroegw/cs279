@@ -1,0 +1,7 @@
+# Shrestha et al
+
+Data scientists and statisticians who use fluent interfaces to gain insights into data often lose intermediate dataframes, requiring them to perform tedious code edits and re-execution. Fluent code is designed to be readable and concise, but the cost of this elegance is that if there is a mistake in the pipeline, in the series of steps, it is cumbersome for the user to hunt for bugs and mistakes, at which point it might have been better to not have used fluent code at all. The authors provide evidence through citations of earlier research and common sense.
+
+The authors created Unravel to help users more fluently reason with and manipulate fluent code. Users can perform structural edits via drag-and-drop and toggle switch interactions to help data scientists explore and understand fluent code. Unravel also provides function summaries and always-on visualizations that show important changes in a dataframe. The authors evaluated the effectiveness of Unravel through a user study involving 14 data scientists, finding that Unravel can support an IDE workflow. 
+
+There are existing tools for writing code for data science. Gather is a tool that helps analysts find, clean, and compare versions of code in cluttered or inconsistent notebooks, but while Gather was designed for entire notebooks, Unravel helps data scientists manage mistakes that arise within specific fluent code chains.

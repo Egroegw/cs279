@@ -1,0 +1,8 @@
+# Miller et al
+
+This paper concerns "peer research". Students, working professionals, and other users have different levels of expertise in different fields and would like to collaborate and seek help, but may lack tools and approaches that facilite collaboration and help-seeking. As evidence, the authors cite earlier approaches like over-the shoulder learning, promiscuous pair programming, and apprentice learning, suggesting that this need is valid. 
+
+The approach taken by the authors is to introduce the concept of "peer research", where two people both help each other in some defined area, such that neither feels in debt to the other afterwards. As evidence for the effectiveness of "peer research", the authors conducted a study involving 39 participants, finding that participants feel motivated by the process, and do succeed in making progress on their work, and that participants interact with far more peoplethan they normally would, which increases opportunities for
+further collaboration.
+
+Similar approaches include peer programming, in which two programmers work at the same workstation, with one writing code while the other watches and reviews the code as it is typed. However, the effect on learning is unclear, and the two people may often be working on different projects. Another approach was apprentice learning, where a less experienced person would learn from the manner in which a mentor approaches problems. However, apprentices also had to use strategies to minimize their use of the mentor’s time.

@@ -1,0 +1,8 @@
+# Brackenbury et al
+
+This paper concerns a file-browser interface for personal cloud storage that suggests files that users might want to retrieve, move, or delete using machine learning. People who store any data in the cloud want to have an organized system of files so that files can be easily found, but pertinent files can be difficult to find, and files that should have been deleted may remain. Organizing a cloud repository by moving files to more sensible locations and deleting unneeded data is cumbersome and time-consuming. For evidence, the authors conducted a user study of participants who had a Google Drive
+that was at least three months old and contained at least 100 files, among other criteria.
+
+The approach the authors used was to create an interface that assisted in the organization of files, providing a file browser based on the open-source library elFinder, but with recommendations. They designed KondoCloud, a file-browser interface for personal cloud storage that  makes machine learning-based recommendations of files users may want to retrieve, move, or delete. These recommendations leverage the intuition that similar files should be managed similarly.The evidence the authors provide is a user study (A/B) where half the participants were given recommendations and half were not. 
+
+KondoCloud builds off of previous Personal Information Management systems. Tools such as GrayArea give users manual control over de-emphasizing less-accessed files and folders, but KondoCloud expands this by recommending actions beyond mere retrieval. BIGFile presents an adaptive interface similar to Kondocloud's for file retrieval, but does not make recommendations beyond file retrieval.

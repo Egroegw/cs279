@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- This is our character set -->
+    <meta charset="UTF-8">\
+    <!-- This is our name -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- This is the page title, aptly named Todo App -->
+    <title>Todo App</title>
+
+    <!-- We load stylesheets from an external resource, hoping that it will not go down -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+</head>
+
+<body>
+    <div style="margin-top: 50px;" class="ui container">
+        <h1 class="ui center aligned header">To Do App</h1>
+
+        <form class="ui form" action="/add" method="post">
+            <div class="field">
+                <label>Todo Title</label>
+                <input type="text" name="title" placeholder="Enter Todo..."><br>
+            </div>
+            <button class="ui blue button" type="submit">Add</button>
+        </form>
+
+        <hr>
+
+        <!-- We use non-Python syntax for the Jinja template engine -->
+        {% for todo in todo_list %}
+        <div class="ui segment">
+            <p class="ui big header">{{todo.id }} | {{ todo.title }}</p>
+
+            <!-- We change the appearance of Completed/Incomplete based on todo.complete -->
+            {% if todo.complete == False %}
+            <span class="ui gray label">Incomplete</span>
+            {% else %}
+            <span class="ui green label">Completed</span>
+            {% endif %}
+
+            <a class="ui blue button" href="/update/{{ todo.id }}">Mark Complete/Incomplete</a>
+            <a class="ui red button" href="/delete/{{ todo.id }}">Delete</a>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+
+</html>
